@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="Css/estilos.css">
+    <!-- JavaScript Bundle with Popper -->
+   
+   
+    <title>POKEDEX</title>
+</head>
+
+<body>
+
+    
+
+    <div class="header">
+        <header>
+            <div class="container mb-3">
+
+                <div class="row">
+                    <div class="col-3">
+
+                        <h1 class="text-white">POKEDEX</h1>
+
+                    </div>
+                    <div class="col-7 bucar mt-2">
+
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="name"
+                                placeholder="Escriba un nombre de un Pokemon" aria-label="Recipient's username"
+                                aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-primary btnbuscar" onclick="consultar()"
+                                    type="button">Consultar</button>
+                                <button class="btn btn-outline-primary btnbuscar btnlistado" onclick="pokeapiListado()"
+                                    type="button">Listado de 10 Pokemosnes</button>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </header>
+    </div>
+    <div class="container">
+
+        <div class="row">
+            <div class="col col-12">
+
+
+                <div class="panel text-center">
+                    <img src="/Img/logo.png" alt="" id="imgpanel">
+                    <p class="intro">Esta pequeña app tiene como funcion principal consultar y mostrar caracteristicas
+                        de <b>pokemones</b> a traves de su nombre.</p>
+                    <hr>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!--contendro de card-->
+        <div class="container">
+
+            <div class="row rowcard">
+
+
+
+
+
+            </div>
+
+            <hr>
+
+
+
+            <div class="container">
+
+                <div class="row  rowlist">
+
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    </div>
+
+   
+    <footer>
+        <div class="container">
+            <h5 class="mt-3">INTEGRANTES DEL GRUPO 1</h5>
+            <hr>
+            <p> <b>[ FELIZ FLORIAN ] • [ HARRISON MARCUS ] • [ JOEL MAXWELL ] • [ JONAS DIAZ ] </b> </p>
+            <hr>
+            <p>© 2022 Copyright: Jonás Diaz Durán • Talending •  All rights reserved Group 1</p>
+           
+
+            <span style="font-size: 25px; color: white;">
+                <a href="https://github.com/jonass2053" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.instagram.com/jonas2053/"><i class="bi bi-instagram"></i></i></a>
+                <a href="https://wa.me/8495690381" target="_blank"><i class="bi bi-whatsapp"></i></i></a>
+                <a href="mailto:jonass2053@gmail.com jonasss2053@gmail.com"><i class="bi bi-envelope-check"></i></a>
+
+
+             </span>
+
+
+
+
+            
+        </div>
+
+
+
+    </footer>
+
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+    <script src="JavaScrips/js.js"></script>
+
+</body>
+
+</html>

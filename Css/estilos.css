@@ -1,0 +1,158 @@
+body{
+    background-color: rgb(250, 249, 249 );
+}
+header
+{
+    background-color: rgb(202, 70, 70);
+  
+    
+}
+.header
+{
+    position: relative;
+}
+
+
+body{
+    
+
+}
+
+
+#portada
+{
+    background-color: white;
+    height: 150px;
+}
+.imgpanel
+{
+    height: 400px;
+    width:600px;
+}
+
+.card h2
+{
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 99, 99)
+   
+}
+.card h5
+{
+    color: rgb(255, 99, 99);
+    
+   
+}
+
+.card:hover
+{
+    box-shadow:  1px  1px 5px  black;
+}
+
+.card-body
+{
+   
+    margin-top: -70px;
+}
+
+
+.card{
+
+    width: 300px;
+  
+    display: inline-block;
+  
+    
+     padding:1px;
+     margin: 10px; 
+}
+.imgpokemon
+{
+    width: 300px;
+    margin-top: -50px;
+}
+
+.boton
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.buscar
+{
+    display: flex;
+    justify-content: center;
+}
+.btnremover
+{
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: white;
+    float: left;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    margin-top: -10px;
+    margin-bottom:10px;
+    margin-left: 15px;
+
+   
+}
+.btnremover:hover
+{
+    
+    text-shadow: 5px 3px 5px black;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.btnbuscar
+{
+   border-color: white;
+   color: white;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.btnlistado
+{
+   border-color: white;
+   color: white;
+   border-radius: 20px;
+}
+
+
+
+footer
+{
+    width: 100%;
+    height: 500px;
+    color: white;
+    background-color: rgb(255, 99, 99);
+    margin-top: auto;
+   text-align: center;
+   display: flex;
+ 
+
+}
+
+.psHabilidad
+{
+
+    border-radius: 5px;
+    border: 3px solid rgb(255, 99, 99);
+    margin-top: auto;;
+    padding: 5px;
+    margin-bottom: 2px;
+    color: white;
+   
+}
+p{
+    margin: 0px;
+}
+
+
+
+
